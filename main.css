@@ -1,0 +1,104 @@
+
+h1 {
+    text-align: center;
+}
+
+.food0{
+    background-color: rgb(218, 140, 140);
+}
+
+.food1 {
+    background-color: rgb(184, 68, 68);
+}
+
+.food2 {
+    background-color: rgb(212, 212, 108);
+}
+
+.foodDiscription{
+    margin-block-start: 20%;
+}
+
+@media (min-width: 992px) {
+
+    .foodMenu,.foodMenu1,.foodMenu2 {
+        float: left;
+        margin-left: 10%;
+        box-sizing: content-box;
+        width: 20%;
+        border: solid #5B6DCD 5px;
+        padding: 5px;
+        margin-top: 5%;
+        text-align: center;
+        background-color: rgb(136, 218, 136);
+    }
+    
+    
+    div {
+        text-align: center;
+        float: right;
+        box-sizing: content-box;
+        width: 36%;
+        border: solid #000000 2px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .foodMenu,.foodMenu1,.foodMenu2 {
+        float: left;
+        margin-left: 10%;
+        box-sizing: content-box;
+        width: 30%;
+        border: solid #5B6DCD 5px;
+        padding: 5px;
+        margin-top: 5%;
+        text-align: center;
+        background-color: rgb(136, 218, 136);
+    }
+    .foodMenu2 {
+        float: none;
+        margin-top: 50%;
+        width: 80%;
+        margin-left: 7%;
+    }
+    
+    div {
+        text-align: center;
+        float: right;
+        box-sizing: content-box;
+        width: 30%;
+        border: solid #000000 2px;
+    }
+
+    .foodDiscription{
+        margin-block-start: 12%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .foodMenu,.foodMenu1,.foodMenu2 {
+        float: none;
+        margin-left: 25%;
+        box-sizing: content-box;
+        width: 50%;
+        border: solid #5B6DCD 5px;
+        padding: 5px;
+        margin-top: 5%;
+        text-align: center;
+        background-color: rgb(136, 218, 136);
+    }
+    .foodMenu1 {
+        float: none;
+        margin-top: 8%; 
+    }
+    
+    div {
+        text-align: center;
+        float: right;
+        box-sizing: content-box;
+        width: 56%;
+        border: solid #000000 2px;
+    }
+}
