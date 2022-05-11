@@ -4,7 +4,7 @@ h1 {
 }
 
 .food0{
-    background-color: rgb(218, 140, 140);
+    background-color: rgb(184, 68, 68);
 }
 
 .food1 {
@@ -12,7 +12,7 @@ h1 {
 }
 
 .food2 {
-    background-color: rgb(212, 212, 108);
+    background-color: rgb(184, 68, 68);
 }
 
 .foodDiscription{
@@ -26,11 +26,11 @@ h1 {
         margin-left: 10%;
         box-sizing: content-box;
         width: 20%;
-        border: solid #5B6DCD 5px;
+        border: solid #000000 5px;
         padding: 5px;
         margin-top: 5%;
         text-align: center;
-        background-color: rgb(136, 218, 136);
+        background-color: gray;
     }
     
     
@@ -50,11 +50,11 @@ h1 {
         margin-left: 10%;
         box-sizing: content-box;
         width: 30%;
-        border: solid #5B6DCD 5px;
+        border: solid #000000 5px;
         padding: 5px;
         margin-top: 5%;
         text-align: center;
-        background-color: rgb(136, 218, 136);
+        background-color: gray;
     }
     .foodMenu2 {
         float: none;
@@ -83,11 +83,11 @@ h1 {
         margin-left: 25%;
         box-sizing: content-box;
         width: 50%;
-        border: solid #5B6DCD 5px;
+        border: solid #000000 5px;
         padding: 5px;
         margin-top: 5%;
         text-align: center;
-        background-color: rgb(136, 218, 136);
+        background-color: gray;
     }
     .foodMenu1 {
         float: none;
